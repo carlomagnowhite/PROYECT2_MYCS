@@ -10,6 +10,7 @@
 #tab2:checked ~ section .tab2,
 #tab3:checked ~ section .tab3 {
   display: block;
+  
 }
 
 #tab1:checked ~ nav .tab1,
@@ -26,12 +27,14 @@
 }
 .tituloCurso{
   position: relative;
-  left: 25%;
+  left: 10%;
 }
 .pc-tab {
   width: 100%;
   max-width: 700px;
-  margin: 0 auto;
+  position: relative;
+  left: 10%;
+  
 }
 .pc-tab ul {
   list-style: none;
