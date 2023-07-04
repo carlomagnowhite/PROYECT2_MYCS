@@ -42,6 +42,25 @@
   box-sizing: border-box;
 }
 
+.custom-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;

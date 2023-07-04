@@ -44,3 +44,31 @@
     
 })(jQuery);
 
+function thanks(){
+
+    var nom_apes = document.getElementById("nombres").value;
+    var mail = document.getElementById("email").value;
+    var mensaje = document.getElementById("mensaje").value;
+
+
+    if(nom_apes == "" || mail == "" || mensaje == ""){
+
+        alert("Por favor, llene todos los campos para poder enviar la información.");
+    }else{
+        alert("Gracias por contactarnos, en breve nos comunicaremos con usted.");
+    }
+
+
+}
+function enviar(){
+
+    var mail = document.getElementById("mailsug").value;
+
+    if(mail != ""){
+        alert("send mail!");
+        document.getElementById("mailsug").value = "";
+    }else{
+        alert("Ingrese un mail para poder enviar la inforamación.");
+    }
+}
+
