@@ -52,15 +52,14 @@ function thanks(){
 
 
     if(nom_apes == "" || mail == "" || mensaje == ""){
-        alert("Rellene los campos del formulario de contacto");
 
+        alert("Por favor, llene todos los campos para poder enviar la información.");
     }else{
-        alert(nom_apes + mail + mensaje);
+        alert("Gracias por contactarnos, en breve nos comunicaremos con usted.");
     }
 
 
 }
-
 function enviar(){
 
     var mail = document.getElementById("mailsug").value;

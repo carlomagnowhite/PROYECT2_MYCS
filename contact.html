@@ -22,6 +22,8 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style2.css" rel="stylesheet">
@@ -102,6 +104,8 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
+
+
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
@@ -118,22 +122,23 @@
                     <form action="">
                         <p>
                             <label for="nombre">Nombre Completo</label>
-                            <input type="text" name="nombre" id="" required>
+                            <input type="text" name="nombre" placeholder="Rosita Rosas" id="nombres" >
                         </p>
                         <p>
                             <label for="correo">Correo Electrónico</label>
-                            <input type="email" name="correo" id="" required>
+                            <input type="email" name="correo" id="email" placeholder="correo@dominio.com" >
                         </p>
                         <p>
                             <label for="telefono">Telefono</label>
-                            <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <input type="tel" name="telefono" pattern="[0-9]{10}" placeholder="0912547893" 
+                            >
                         </p>
                         <p>
                             <label for="mensaje">Mensaje o sugerencia</label>
-                            <textarea name="mensaje" id=""  rows="10"></textarea>
+                            <textarea name="mensaje" id="mensaje"  rows="10"></textarea>
                         </p>
                         <p>
-                            <button type="submit">Enviar</button>
+                            <button id="btn1" type="submit" onclick="thanks()">Enviar</button>
                         </p>
                     </form>
                 </div>
