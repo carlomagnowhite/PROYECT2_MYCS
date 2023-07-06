@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>CTT UTA-FISEI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="js/main.js" rel="js">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -454,9 +455,9 @@
                 <p>Ingresa tu correo personal para obtener mayor información a cerca de los cursos del CTT.</p>
                 <div class="w-100">
                     <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Correo Electrónico">
+                        <input type="text" class="form-control border-light" id = "mailsug" style="padding: 30px;" placeholder="Correo Electrónico">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Enviar</button>
+                            <button class="btn btn-primary px-4" onclick="enviar()">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -472,7 +473,7 @@
             <div class="col-lg-6 text-center text-md-right">
                 <ul class="nav d-inline-flex">
                     <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Privacy</a>
+                        <a class="nav-link text-white py-0" href="authors.html">Authors</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white py-0" href="#">Terms</a>

@@ -68,7 +68,7 @@ function enviar(){
         alert("send mail!");
         document.getElementById("mailsug").value = "";
     }else{
-        alert("Ingrese un mail para poder enviar la inforamación.");
+        alert("Ingrese un mail para poder enviar la información.");
     }
 }
 
