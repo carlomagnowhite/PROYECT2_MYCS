@@ -52,3 +52,20 @@
   resize: none;
   height: 200px;
 }
+ .width-a{
+  min-height: 350px;
+ }
+ .image-a{
+  width: 100%;
+ }
+.row-a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-a{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
