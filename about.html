@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
     
 <head>
     <meta charset="utf-8">
-    <title>CTT UTA</title>
+    <title>CTT-FISEI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
-
+    <link href="js/main.js" rel="js">
+    <script src="js/correos.js"></script>
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" href="img/ctt.png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,47 +24,49 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+<!--RECOPILADOR DE INCIDENCIAS-->
+<script type="text/javascript" src="https://mattdiaz.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ia3qmx/b/4/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=es-ES&collectorId=da30bc4a"></script>
+<!--RECOPILADOR END-->
+
 <body>
-    <!-- Topbar Start -->
- <div class="container-fluid d-none d-lg-block">
-    <div class="row align-items-center py-4 px-xl-5">
-        <div class="col-lg-3">
-            <a href="" class="text-decoration-none">
-                <h1 class="m-0"><span class="text-primary">CTT</span>FISEI</h1>
-            </a>
-        </div>
-        <div class="col-lg-3 text-right">
-            <div class="d-inline-flex align-items-center">
-                <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                <div class="text-left">
-                    <h6 class="font-weight-semi-bold mb-1">Direccion</h6>
-                    <small>
-                        Calle Rocafuerte entre Quito y Mariano Castillo</small>
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center py-4 px-xl-5">
+            <div class="col-lg-3">
+                <a href="index.html" class="text-decoration-none">
+                    <h1 class="m-0"><span class="text-primary">CTT</span>-FISEI</h1>
+                    <h6 class="font-weight-semi-bold mb-1">Centro de Transferencia y Desarrollo de Tecnología</h6>
+                </a>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Dirección</h6>
+                        <small>
+                            Av. Los Chasquis Y Río Payamino. Facultad de Ingeniería en Sistemas Electrónica e Industrial</small>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-3 text-right">
-            <div class="d-inline-flex align-items-center">
-                <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                <div class="text-left">
-                    <h6 class="font-weight-semi-bold mb-1">Contacto</h6>
-                    <small>educacionvirtual@uta.edu.ec</small>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Contacto</h6>
+                        <small>ctt.fisei@uta.edu.ec</small>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-3 text-right">
-            <div class="d-inline-flex align-items-center">
-                <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                <div class="text-left">
-                    <h6 class="font-weight-semi-bold mb-1">Llamanos</h6>
-                    <small>(03) 282 - 4804 </small>
-                      <small>(099) 8918 - 159</small>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Llámanos</h6>
+                        <small>0962027000</small>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Topbar End -->
   <!-- Navbar Start -->
 <div class="container-fluid">
     <div class="row border-top px-xl-5 center-nav">
@@ -80,9 +81,9 @@
                 <div class="collapse center-nav-bar navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav py-0 ">
                         <a href="index.html" class="nav-item nav-link">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link active">Sobre nosotros</a>
+                        <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
                         <a href="course.html" class="nav-item nav-link">Cursos</a>
-                        <a href="contact.html" class="nav-item nav-link">Contacto </a>
+                        <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
                     </div>
                 </div>
             </nav>
@@ -97,7 +98,7 @@
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
                 <h3 class="display-4 text-white text-uppercase">Sobre Nosotros</h3>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
                     <p class="m-0 text-uppercase">Sobre Nosotros</p>
                 </div>
@@ -111,36 +112,23 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5"><br><br><br>
                     <img class="img-fluid rounded mb-4 mb-lg-0" src="img/FISEI_ADMIN.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
                     <div class="text-left mb-4">
                         <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Sobre Nosotros</h5>
-                        <h1>Objetivos</h1>
+                        <h1>Objetivos</h1><br>
                     </div>
-                    <p> - Incentivar la participación de los profesionales en la ejecución de proyectos para el desarrollo tecnológico nacional. </P>
-                    <P> - Incentivar la investigación en los campos afines a sus áreas de trabajo.</P>   
-                    <P> - Formular alternativas tecnológicas aplicables a la solución de problemas inherentes a sus áreas de trabajo, que satisfagan las necesidades básicas de la población en general con el fin de propender a su desarrollo.</P> 
-                    <P> - Proporcionar capacitación, asesoramiento técnico y consultorías a los sectores públicos y privados.</P>   
-                    <P> - Ejecutar trabajos de ensamblaje, mantenimiento y repotenciación de equipos de computación.</P>    
-                    <P> - Establecer y mantener relaciones con instituciones afines tanto nacionales como extranjeras.</P>   
-                    <P> - Brindar soporte académico y técnico a las carreras profesionales relacionadas con sus áreas de trabajo.</P>    
-                    <P> - Desarrollar proyectos especializados, aplicables a las áreas productivas.</P>    
-                    <P> - Facilitar apoyo técnico, científico en otras Facultades, Departamentos y Centros de Servicios de la UTA.</P>    
-                    <P> - Difundir el conocimiento técnico - científico existente, en foros nacionales e internacionales a través de concursos, congresos, seminarios, conferencias y publicaciones de artículos.</p>
-                    
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Formular alternativa tecnológicas aplicables a la solución de problemas inherentes a sus áreas de trabajo, que satisfagan las necesidades básicas de la población en general con el fin de propender a su desarrollo.</li><br>
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Proporcionar capacitación, asesoramiento técnico y consultorías a los sectores públicos y privados.</li><br>
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Brindar soporte académico y técnico a las carreras profesionales relacionadas con sus áreas de trabajo.</li><br>
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Difundir el conocimiento técnico - científico existente, en foros nacionales e internacionales a través de concursos, congresos, seminarios, conferencias y publicaciones de artículos.</li><br>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
-
-
-
-
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
@@ -181,7 +169,7 @@
                     <div class="col-md-6 mb-5">
                         <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Cursos</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="curso1AD.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Analítica de Datos</a>
+                            <a class="text-white mb-2" href="plantillaCursos.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Analítica de Datos</a>
                             <a class="text-white mb-2" href="curso2BP.html"><i class="fa fa-angle-right mr-2"></i>Implementación de Buenas Prácticas</a>
                             <a class="text-white mb-2" href="curso3PyD.html"><i class="fa fa-angle-right mr-2"></i>Desarrollo Web con Phyton y Django</a>
                             <a class="text-white mb-2" href="curso4NE.html"><i class="fa fa-angle-right mr-2"></i>Networking Essentials</a>
@@ -193,13 +181,10 @@
             </div>
             <div class="col-lg-5 col-md-12 mb-5">
                 <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Información</h5>
-                <p>Ingresa tu correo personal para obtener mayor información a cerca de los cursos del CTT.</p>
                 <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
+                    <p>Cuentános tus inquietudes.</p>
+                    <div class="w-100">       
+                        <button class="btn-primary px-md-5"  style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR INFORMACIÓN - CTT</a></button>
                     </div>
                 </div>
             </div>
@@ -208,22 +193,16 @@
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="#"></a> Copyright © Universidad Técnica de Ambato <a href=""></a>
+                <p class="m-0 text-white">&copy;</a> Copyright © Universidad Técnica de Ambato <a></a>
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">
                 <ul class="nav d-inline-flex">
                     <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Privacy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Terms</a>
+                        <a class="nav-link text-white py-0" href="authors.html">Autores</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white py-0" href="#">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Help</a>
                     </li>
                 </ul>
             </div>
