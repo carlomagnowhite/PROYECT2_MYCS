@@ -1,0 +1,85 @@
+.cuerpo{
+    background: #f0d4d4;
+    padding-bottom: -200px;
+}
+
+img {
+    display: block;
+    width: 300px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+
+.titulo{
+    padding-top: 50px;
+}
+
+.cedula{
+    padding-top: 10px;
+}
+
+.apellidos{
+    padding-top: 10px;
+}
+
+.nombres{
+    padding-top: 10px;
+}
+ 
+ 
+.telefono{
+    padding-top: 10px;
+}
+ 
+.correo{
+    padding-top: 10px;
+}
+ 
+.direcccion{
+    padding-top: 10px;
+}
+ 
+.categoria{
+    padding-top: 10px;
+}
+
+.estudiantes{
+    padding-top: 10px;
+}
+
+.graduados{
+    padding-top: 10px;
+}
+
+.particulares{
+    padding-top: 10px;
+}
+
+.cursos_aseguir{
+    padding-top: 10px;
+}
+
+.subir_documentos{
+    padding-top: 10px;
+    
+}
+.chooser{
+    padding-top: -10px;
+    margin-bottom: 40px;
+}
+
+.enviar form button:hover{
+    background: #f03131;
+    padding-top: -2000000px;
+    margin: 0;
+  }
+
+
+
+footer{
+    padding-top: 10px;
+    margin: 0;
+}
+  
