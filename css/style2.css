@@ -1,32 +1,36 @@
-.content{
+.content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2em;
 }
-.logo{
+
+.logo {
   text-align: center;
   color: #FF0000;
   margin-bottom: 30px;
   font-size: 40px;
 }
-.contact-wrapper{
+
+.contact-wrapper {
   box-shadow: 0 0 20px rgba(68, 68, 68, 0.3);
 }
 
-.contact-wrapper > *{
+.contact-wrapper>* {
   padding: 2em;
 }
 
-.contact-form form{
+.contact-form form {
   margin: 0;
   padding: 1em;
 }
-.contact-form label{
+
+.contact-form label {
   font-size: 20px;
 }
+
 .contact-form form button,
 .contact-form form input,
-.contact-form form textarea{
+.contact-form form textarea {
   width: 100%;
   padding: 1em;
   border: 1px solid #ccc;
@@ -36,7 +40,7 @@
   margin-bottom: 1em;
 }
 
-.contact-form form button{
+.contact-form form button {
   background: #FF0000;
   color: #fff;
   border: none;
@@ -44,11 +48,61 @@
   text-transform: uppercase;
 }
 
-.contact-form form button:hover{
+.contact-form form button:hover {
   background: #f03131;
 }
 
-.contact-form form textarea{
+.contact-form form textarea {
   resize: none;
   height: 200px;
+}
+
+.width-a {
+  min-height: 350px;
+}
+
+.image-a {
+  width: 100%;
+}
+
+.row-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.shadow-a{
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .container-a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+  }
 }
