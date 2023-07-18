@@ -31,6 +31,39 @@
     margin-left: 5%;
   }
 
+.tituloCurso{
+  margin-left: 5%;
+  }
+  .intro{
+    display: flex ;
+    
+  }
+  .descripcion{
+    margin-left: 5%;
+    background-color: aliceblue;
+    width: 55%;
+  }
+  
+  .imagen{
+    margin-left: 5%;
+  }
+  .imgDes{
+    width: 500px; 
+    height: 300px;
+  }
+  
+  .objetivos{
+    margin-left: 5%;
+  }
+  .requisitosydetalles{
+    margin-left: 5%;
+  
+  }
+
+  .ubicacion{
+    margin-left: 5%;
+  }
+
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
 .pc-tab > input,
@@ -125,26 +158,4 @@
   background: #ffffff;
   left: 0;
   bottom: -1px;
-}
-
-.comite{
-  margin-left: 5%;
-}
-
-.registro{
-  display: flex;
-  justify-content: center;
-}
-
-.btnregistro{
-  width: 10%;
-  height: 5%;
-  color: white;
-  background-color: red;
-  border-color: #444;
-  border-width: 1px;
-}
-
-.colortexto{
-  color: white;
 }
