@@ -1,4 +1,36 @@
-/* Component Needs */
+.tituloCurso{
+  margin-left: 5%;
+  }
+  .intro{
+    display: flex ;
+    
+  }
+  .descripcion{
+    margin-left: 5%;
+    background-color: aliceblue;
+    width: 55%;
+  }
+  
+  .imagen{
+    margin-left: 5%;
+  }
+  .imgDes{
+    width: 500px; 
+    height: 300px;
+  }
+  
+  .objetivos{
+    margin-left: 5%;
+  }
+  .requisitosydetalles{
+    margin-left: 5%;
+  
+  }
+
+  .ubicacion{
+    margin-left: 5%;
+  }
+
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
 .pc-tab > input,
@@ -25,15 +57,11 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.tituloCurso{
-  position: relative;
-  left: 10%;
-}
 .pc-tab {
   width: 100%;
-  max-width: 700px;
+  max-width: 633px;
   position: relative;
-  left: 10%;
+  margin: 0 auto;
   
 }
 .pc-tab ul {
@@ -97,4 +125,26 @@
   background: #ffffff;
   left: 0;
   bottom: -1px;
+}
+
+.comite{
+  margin-left: 5%;
+}
+
+.registro{
+  display: flex;
+  justify-content: center;
+}
+
+.btnregistro{
+  width: 10%;
+  height: 5%;
+  color: white;
+  background-color: red;
+  border-color: #444;
+  border-width: 1px;
+}
+
+.colortexto{
+  color: white;
 }
