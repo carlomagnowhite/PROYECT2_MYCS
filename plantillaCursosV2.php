@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>CTT UTA</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free HTML Templates" name="keywords">
-        <meta content="Free HTML Templates" name="description">
-    
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
-    
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
-    
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    
-        <!-- Libraries Stylesheet -->
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/Cursos.css" rel="stylesheet">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    </head>
-    
-    <body>
-        <!-- Topbar Start -->
-     <div class="container-fluid d-none d-lg-block">
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>CTT UTA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+    <!-- Favicon -->
+    <link href="img/ctt.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/Cursos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3">
                 <a href="" class="text-decoration-none">
@@ -67,35 +67,16 @@
         </div>
     </div>
     <!-- Topbar End -->
-    
-    
+
+
     <!-- Navbar Start -->
-    <div class="container-fluid">
-        <div class="row border-top px-xl-5 center-nav">
-            <div class="col-lg-9 center-nav-bar">
-                <nav class="navbar  navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                    <a href="" class="text-decoration-none d-block d-lg-none">
-                        <h1 class="m-0"><span class="text-primary">CTT</span>FISEI</h1>
-                    </a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse center-nav-bar navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav py-0 ">
-                            <a href="index.html" class="nav-item nav-link">Inicio</a>
-                            <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
-                            <a href="course.html" class="nav-item nav-link">Cursos</a>
-                            <a href="contact.html" class="nav-item nav-link">Contacto </a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/navbar.php");
+    ?>
     <!-- Navbar End -->
-    
-    
-        <!-- Header Start -->
+
+
+    <!-- Header Start -->
     <div class="container-fluid page-header" style="margin-bottom: 90px;">
         <div class="container">
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
@@ -116,24 +97,15 @@
     <h1 class="tituloCurso">PROGRAMACIÓN CON PYTHON APLICADA A LA INGENIERÍA</h1><br>
     <div class="intro">
         <!--Descripcion -->
-        <div class="descripcion" >
+        <div class="descripcion">
             <h2>DESCRIPCIÓN</h1>
-                <p>El curso de Programación con Python Aplicada a la Ingeniería presenta a los 
-                    estudiantes conceptos fundamentales, estrategias, técnicas usadas en la 
-                    implementación de algoritmos y funciones en Python, para desarrollar 
-                    habilidades en la creación de aplicaciones enfocadas a la manipulación, 
-                    cálculo y análisis de datos para resolver problemas reales en el campo de las 
+                <p>El curso de Programación con Python Aplicada a la Ingeniería presenta a los
+                    estudiantes conceptos fundamentales, estrategias, técnicas usadas en la
+                    implementación de algoritmos y funciones en Python, para desarrollar
+                    habilidades en la creación de aplicaciones enfocadas a la manipulación,
+                    cálculo y análisis de datos para resolver problemas reales en el campo de las
                     ingenierías u otros.</p><br>
-                    <p>
-                    Por ello, se pretende que desde su <strong>VISIÓN:</strong> "La Universidad Técnica de Ambato 
-                    por sus niveles de excelencia se constituirá como un centro de formación superior 
-                    con liderazgo y proyección nacional e internacional". Y cuya <Strong>MISIÓN:</Strong> “Formar 
-                    profesionales líderes competentes, con visión humanista y pensamiento crítico a 
-                    través de la docencia, la investigación y la vinculación, que apliquen, 
-                    promuevan y difundan el conocimiento respondiendo a las necesidades del 
-                    país”, mediante los conocimientos de la Programación con Python Aplicada a la 
-                    Ingeniería. 
-                    </p>
+                </p>
         </div>
         <div class="imagen" data-aos="fade-left">
             <img class="imgDes" src="img/Python-Symbol_0.png">
@@ -150,7 +122,7 @@
                 Dar una visión básica del uso del lenguaje de programación Python.
             </li>
             <li>
-                Desarrollar aplicaciones enfocadas a la manipulación, cálculo y análisis de 
+                Desarrollar aplicaciones enfocadas a la manipulación, cálculo y análisis de
                 datos de manera rápida.
             </li>
         </ul>
@@ -160,7 +132,7 @@
         <p>TALLERES TECNOLÓGICOS – FISEI.<br>
             Avda. Los Chasquis entre Río Payamino y Río Guayllabamba <br>
             Campus Huachi, Ambato-Ecuador.
-            </p>
+        </p>
     </div><br>
     <div class="comite">
         <h2>COMITE ORGANIZADOR</h2>
@@ -178,25 +150,25 @@
         <input checked="checked" id="tab1" type="radio" name="pct" />
         <input id="tab2" type="radio" name="pct" />
         <input id="tab3" type="radio" name="pct" />
-          <nav>
+        <nav>
             <ul>
-              <li class="tab1">
-                <label for="tab1">REQUISITOS Y DETALLES</label>
-              </li>
-              <li class="tab2">
-                <label for="tab2">MATERIALES Y EQUIPOS</label>
-              </li>
-              <li class="tab3">
-                <label for="tab3">CONTENIDOS</label>
-              </li>
+                <li class="tab1">
+                    <label for="tab1">REQUISITOS Y DETALLES</label>
+                </li>
+                <li class="tab2">
+                    <label for="tab2">MATERIALES Y EQUIPOS</label>
+                </li>
+                <li class="tab3">
+                    <label for="tab3">CONTENIDOS</label>
+                </li>
             </ul>
-          </nav>
-          <section>
+        </nav>
+        <section>
             <!--Requisitos y Detalles-->
             <div class="tab1">
                 <ul>
                     <li>
-                        <strong>Inscripciones fechas:</strong> 20 al 31 de enero del 2022    
+                        <strong>Inscripciones fechas:</strong> 20 al 31 de enero del 2022
                     </li>
                     <li>
                         <strong>El cupo de inscripciones:</strong> 30 participantes
@@ -212,15 +184,15 @@
                     </li>
                     <li>
                         <strong>Precio para los asistentes:</strong>
-                            <li >
-                                40 USD Estudiantes y egresados UTA
-                            </li>
-                            <li >
-                                50 USD Graduados, Docentes y Administrativos UTA
-                            </li>
-                            <li >
-                                60 USD Público en general
-                            </li>
+                    <li>
+                        40 USD Estudiantes y egresados UTA
+                    </li>
+                    <li>
+                        50 USD Graduados, Docentes y Administrativos UTA
+                    </li>
+                    <li>
+                        60 USD Público en general
+                    </li>
                     </li>
                     <li>
                         <strong>Tipo de capacitación:</strong> Curso de asistencia y aprobación
@@ -246,10 +218,10 @@
                         • 1 proyector
                     </li>
                     <li>
-                        • 1 pizarrón  
+                        • 1 pizarrón
                     </li>
                     <li>
-                        • Internet 
+                        • Internet
                     </li>
                     <li>
                         • Software especializado (Spyder 5.x.xx)
@@ -261,15 +233,15 @@
                 <ul>
                     <li>
                         <strong>• Introducción</strong><br>
-                            o Preparación del entorno de trabajo <br>
-                            o Primeros pasos con Python <br>
-                            o Tipos de datos <br>
+                        o Preparación del entorno de trabajo <br>
+                        o Primeros pasos con Python <br>
+                        o Tipos de datos <br>
                     </li>
                     <li>
                         <strong>• Operadores en Python</strong><br>
-                            o Relacionales <br>
-                            o Lógicos<br>
-                            o Aritméticos<br>
+                        o Relacionales <br>
+                        o Lógicos<br>
+                        o Aritméticos<br>
                     </li>
                     <li>
                         <strong>• Control de flujo</strong><br>
@@ -281,7 +253,7 @@
                         o Listas <br>
                         o Tuplas <br>
                         o Diccionarios <br>
-                        
+
                     </li>
                     <li>
                         <strong>• Manejo de archivos</strong><br>
@@ -302,9 +274,9 @@
                     <li>
                         <strong>• Programación Orientada a Objetos</strong><br>
                         o Clases <br>
-                        o Métodos <br> 
+                        o Métodos <br>
                         o Funciones <br>
-                        o Herencia <br> 
+                        o Herencia <br>
                     </li>
                     <li>
                         <strong>• Herramientas de aprendizaje y desarrollo con Python</strong><br>
@@ -317,18 +289,18 @@
                     </li>
                 </ul>
             </div>
-          </section>
-        </div><br>
+        </section>
+    </div><br>
 
     <!--Fin Info Cursos -->
 
     <!--Boton Registro-->
     <div class="registro">
         <button class="btnregistro" data-aos="fade-up">
-            <a href="formularioInscripcion.html" target="_blank" class="textcolor">REGISTRARME</a>
+            <a href="formularioInscripcion.php" target="_blank" class="textcolor">REGISTRARME</a>
         </button>
     </div>
-    
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
@@ -340,12 +312,12 @@
                         <p><i class="fa fa-phone-alt mr-2"></i>(032) 851894 - 411537</p>
                         <p><i class="fa fa-envelope mr-2"></i>ap.sanchez@uta.edu.ec</p>
                         <div class="d-flex justify-content-start mt-4">
-                            <a  target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
-                            <a  target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
-                            <a  target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
-                            <a  target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
 
-                        
+
 
                         </div>
                     </div>
@@ -368,8 +340,8 @@
                 <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Información</h5>
                 <div class="w-100">
                     <p>Cuentános tus inquietudes.</p>
-                    <div class="w-100">       
-                        <button class="btn-primary px-md-5"  style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR INFORMACIÓN - CTT</a></button>
+                    <div class="w-100">
+                        <button class="btn-primary px-md-5" style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR INFORMACIÓN - CTT</a></button>
                     </div>
                 </div>
             </div>
@@ -397,6 +369,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
+
 </html>

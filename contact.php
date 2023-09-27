@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-    
+
 <head>
     <meta charset="utf-8">
     <title>CTT-FISEI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="js/main.js" rel="js">
-    <script src="js/correos.js"></script>
+
     <!-- Favicon -->
-    <link rel="icon" href="img/ctt.png">
+    <link href="img/ctt.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -20,8 +20,11 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
 </head>
 
 <!--RECOPILADOR DE INCIDENCIAS-->
@@ -29,6 +32,7 @@
 <!--RECOPILADOR END-->
 
 <body>
+    <!-- Topbar Start -->
     <div class="container-fluid d-none d-lg-block">
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3">
@@ -52,7 +56,7 @@
                     <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
                     <div class="text-left">
                         <h6 class="font-weight-semi-bold mb-1">Contacto</h6>
-                        <small>ctt.fisei@uta.edu.ec</small>
+                        <small>ctt.fisei@uta.edu.ec </small>
                     </div>
                 </div>
             </div>
@@ -67,68 +71,16 @@
             </div>
         </div>
     </div>
-  <!-- Navbar Start -->
-<div class="container-fluid">
-    <div class="row border-top px-xl-5 center-nav">
-        <div class="col-lg-9 center-nav-bar">
-            <nav class="navbar  navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                <a href="" class="text-decoration-none d-block d-lg-none">
-                    <h1 class="m-0"><span class="text-primary">CTT</span>FISEI</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse center-nav-bar navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav py-0 ">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
-                        <a href="course.html" class="nav-item nav-link">Cursos</a>
-                        <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-</div>
-<!-- Navbar End -->
-
- <!-- Header Start -->
-    <div class="container-fluid page-header" style="margin-bottom: 90px;">
-        <div class="container">
-            <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Sobre Nosotros</h3>
-                <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Sobre Nosotros</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header End -->
+    <!-- Topbar End -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-5"><br><br><br>
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/FISEI_ADMIN.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <div class="text-left mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Sobre Nosotros</h5>
-                        <h1>Objetivos</h1><br>
-                    </div>
-                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Formular alternativa tecnológicas aplicables a la solución de problemas inherentes a sus áreas de trabajo, que satisfagan las necesidades básicas de la población en general con el fin de propender a su desarrollo.</li><br>
-                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Proporcionar capacitación, asesoramiento técnico y consultorías a los sectores públicos y privados.</li><br>
-                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Brindar soporte académico y técnico a las carreras profesionales relacionadas con sus áreas de trabajo.</li><br>
-                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Difundir el conocimiento técnico - científico existente, en foros nacionales e internacionales a través de concursos, congresos, seminarios, conferencias y publicaciones de artículos.</li><br>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
+    <!-- Navbar Start -->
+    <?php
+    include("./inc/navbar.php");
+    ?>
+    <!-- Navbar End -->
+
+
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
@@ -139,12 +91,49 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
+
+
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!--Inicio formulario de contacto-->
+
+    <body class="contactBody">
+        <div class="content">
+            <h1 class="logo">Contáctanos</h1>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form action="">
+                        <p>
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" name="nombre" placeholder="Rosita Rosas" id="nombres">
+                        </p>
+                        <p>
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" name="correo" id="email" placeholder="correo@dominio.com">
+                        </p>
+                        <p>
+                            <label for="telefono">Telefono</label>
+                            <input type="tel" name="telefono" pattern="[0-9]{10}" placeholder="0912547893">
+                        </p>
+                        <p>
+                            <label for="mensaje">Mensaje o sugerencia</label>
+                            <textarea name="mensaje" id="mensaje" rows="10"></textarea>
+                        </p>
+                        <p>
+                            <button id="btn1" type="submit" onclick="thanks()">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!--Fin formulario de contacto-->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -157,12 +146,12 @@
                         <p><i class="fa fa-phone-alt mr-2"></i>(032) 851894 - 411537</p>
                         <p><i class="fa fa-envelope mr-2"></i>ap.sanchez@uta.edu.ec</p>
                         <div class="d-flex justify-content-start mt-4">
-                            <a  target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
-                            <a  target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
-                            <a  target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
-                            <a  target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
+                            <a target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
 
-                        
+
 
                         </div>
                     </div>
@@ -183,8 +172,8 @@
                 <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Información</h5>
                 <div class="w-100">
                     <p>Cuentános tus inquietudes.</p>
-                    <div class="w-100">       
-                        <button class="btn-primary px-md-5"  style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR INFORMACIÓN - CTT</a></button>
+                    <div class="w-100">
+                        <button class="btn-primary px-md-5" style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR INFORMACIÓN - CTT</a></button>
                     </div>
                 </div>
             </div>
@@ -209,7 +198,7 @@
         </div>
     </div>
     <!-- Footer End -->
-    
+
 </body>
 
 </html>

@@ -3,12 +3,13 @@
   }
   .intro{
     display: flex ;
-    
+    align-items: flex-start; /* Alinea los elementos verticalmente arriba */
+    margin-left: 5%;
   }
   .descripcion{
-    margin-left: 5%;
     background-color: aliceblue;
     width: 55%;
+    padding: 20px; 
   }
   
   .imagen{

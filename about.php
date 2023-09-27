@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es-ES">
+    
 <head>
     <meta charset="utf-8">
     <title>CTT-FISEI</title>
@@ -7,11 +8,11 @@
     <link href="js/main.js" rel="js">
     <script src="js/correos.js"></script>
     <!-- Favicon -->
-    <link href="img/ctt.png" rel="icon">
+    <link rel="icon" href="img/ctt.png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -22,93 +23,107 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+
+<!--RECOPILADOR DE INCIDENCIAS-->
+<script type="text/javascript" src="https://mattdiaz.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ia3qmx/b/4/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=es-ES&collectorId=da30bc4a"></script>
+<!--RECOPILADOR END-->
+
 <body>
-        <!-- Topbar Start -->
- <div class="container-fluid d-none d-lg-block">
-    <div class="row align-items-center py-4 px-xl-5">
-        <div class="col-lg-3">
-            <a href="index.html" class="text-decoration-none">
-                <h1 class="m-0"><span class="text-primary">CTT</span>-FISEI</h1>
-                <h6 class="font-weight-semi-bold mb-1">Centro de Transferencia y Desarrollo de Tecnología</h6>
-            </a>
-        </div>
-        <div class="col-lg-3 text-right">
-            <div class="d-inline-flex align-items-center">
-                <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                <div class="text-left">
-                    <h6 class="font-weight-semi-bold mb-1">Dirección</h6>
-                    <small>
-                        Av. Los Chasquis Y Río Payamino. Facultad de Ingeniería en Sistemas Electrónica e Industrial</small>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 text-right">
-            <div class="d-inline-flex align-items-center">
-                <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                <div class="text-left">
-                    <h6 class="font-weight-semi-bold mb-1">Contacto</h6>
-                    <small>ctt.fisei@uta.edu.ec </small>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 text-right">
-            <div class="d-inline-flex align-items-center">
-                <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                <div class="text-left">
-                    <h6 class="font-weight-semi-bold mb-1">Llámanos</h6>
-                    <small>0962027000</small>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Topbar End -->
-
-
-<!-- Navbar Start -->
-<div class="container-fluid">
-    <div class="row border-top px-xl-5 center-nav">
-        <div class="col-lg-9 center-nav-bar">
-            <nav class="navbar  navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                <a href="" class="text-decoration-none d-block d-lg-none">
-                    <h1 class="m-0"><span class="text-primary">CTT</span>FISEI</h1>
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center py-4 px-xl-5">
+            <div class="col-lg-3">
+                <a href="index.html" class="text-decoration-none">
+                    <h1 class="m-0"><span class="text-primary">CTT</span>-FISEI</h1>
+                    <h6 class="font-weight-semi-bold mb-1">Centro de Transferencia y Desarrollo de Tecnología</h6>
                 </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse center-nav-bar navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav py-0 ">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
-                        <a href="course.html" class="nav-item nav-link">Cursos</a>
-                        <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Dirección</h6>
+                        <small>
+                            Av. Los Chasquis Y Río Payamino. Facultad de Ingeniería en Sistemas Electrónica e Industrial</small>
                     </div>
                 </div>
-            </nav>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Contacto</h6>
+                        <small>ctt.fisei@uta.edu.ec</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Llámanos</h6>
+                        <small>0962027000</small>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- NavBar End -->
+    <?php
+        include("./inc/navbar.php");
+    ?>
 
-
-    <!-- Header Start -->
+ <!-- Header Start -->
     <div class="container-fluid page-header" style="margin-bottom: 90px;">
         <div class="container">
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Courses</h3>
+                <h3 class="display-4 text-white text-uppercase">Sobre Nosotros</h3>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Courses</p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">INTRODUCCION A LA CIBERSEGURIDAD</p>
+                    <p class="m-0 text-uppercase">Sobre Nosotros</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Header End -->
 
-    <!-- Imagen -->
-    <div align="center"><img src="img/Curso6.jpg"></div>
-    <!-- Imagen End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5"><br><br><br>
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/FISEI_ADMIN.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <div class="text-left mb-4">
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Sobre Nosotros</h5>
+                        <h1>Objetivos</h1><br>
+                    </div>
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Formular alternativa tecnológicas aplicables a la solución de problemas inherentes a sus áreas de trabajo, que satisfagan las necesidades básicas de la población en general con el fin de propender a su desarrollo.</li><br>
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Proporcionar capacitación, asesoramiento técnico y consultorías a los sectores públicos y privados.</li><br>
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Brindar soporte académico y técnico a las carreras profesionales relacionadas con sus áreas de trabajo.</li><br>
+                    <li class="text-uppercase" style="text-justify: distribute-all-lines;">Difundir el conocimiento técnico - científico existente, en foros nacionales e internacionales a través de concursos, congresos, seminarios, conferencias y publicaciones de artículos.</li><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -133,7 +148,7 @@
                     <div class="col-md-6 mb-5">
                         <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Cursos</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="curso1AD.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Analítica de Datos</a>
+                            <a class="text-white mb-2" href="plantillaCursos.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Analítica de Datos</a>
                             <a class="text-white mb-2" href="curso2BP.html"><i class="fa fa-angle-right mr-2"></i>Implementación de Buenas Prácticas</a>
                             <a class="text-white mb-2" href="curso3PyD.html"><i class="fa fa-angle-right mr-2"></i>Desarrollo Web con Phyton y Django</a>
                             <a class="text-white mb-2" href="curso4NE.html"><i class="fa fa-angle-right mr-2"></i>Networking Essentials</a>
@@ -173,6 +188,7 @@
         </div>
     </div>
     <!-- Footer End -->
-
+    
 </body>
+
 </html>
