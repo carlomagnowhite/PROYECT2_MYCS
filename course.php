@@ -30,157 +30,20 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center py-4 px-xl-5">
-            <div class="col-lg-3">
-                <a href="index.html" class="text-decoration-none">
-                    <h1 class="m-0"><span class="text-primary">CTT</span>-FISEI</h1>
-                    <h6 class="font-weight-semi-bold mb-1">Centro de Transferencia y Desarrollo de Tecnología</h6>
-                </a>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Dirección</h6>
-                        <small>
-                            Av. Los Chasquis Y Río Payamino. Facultad de Ingeniería en Sistemas Electrónica e Industrial</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Contacto</h6>
-                        <small>ctt.fisei@uta.edu.ec </small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Llámanos</h6>
-                        <small>0962027000</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/topbar.php");
+    ?>
     <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
     <?php
     include("./inc/navbar.php");
     ?>
     <!-- Navbar End -->
-
-
     <!-- Header Start -->
-
-    <div class="container-fluid page-header" style="margin-bottom: 90px;">
-        <div class="container">
-            <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Cursos</h3>
-                <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Cursos</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/header_cursos.php");
+    ?>
     <!-- Header End -->
-
-
-    <!-- Category Start -->
-    <!--<div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Subjects</h5>
-                <h1>Explore Top Subjects</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/fisei_courses" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Web Design</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-2.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Development</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-3.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Game Design</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Apps Design</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-5.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Marketing</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-6.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Research</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-7.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Content Writing</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-8.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">SEO</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>--->
-    <!-- Category Start -->
-
-
     <!-- Courses Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
@@ -188,22 +51,17 @@
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">CURSOS</h5>
                 <h1>Cursos Disponibles</h1>
             </div>
-            <!---Primer curso START-->
             <div class="row">
+                <!---Primer curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/ANALITICA-DE-DATOS.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/ojs_img.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>FINALIZADO</small>
+                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32 HORAS</small>
                             </div>
-                            <a class="h5">Introducción a la Analítica de Datos</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <a href="plantillaCursosV2.php" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">INSCRIBIRME</a>
-                                </div>
-                            </div>
+                            <a href="curso1.php" class="h5">INTRODUCCIÓN A OPEN JOURNAL SYSTEM (OJS) DESDE LA EDICIÓN DE REVISTA</a>
                         </div>
                     </div>
                 </div>
@@ -211,56 +69,45 @@
                 <!---Segundo curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/manufactura_industria.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/curso2_img.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32 HORAS</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>40 HORAS</small>
                             </div>
-                            <a class="h5" href="">Implementación de buenas prácticas (BPM) en la Industria</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <a href="curso2BP.html" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">INSCRIBIRME</a>
-                                </div>
-                            </div>
+                            <a href="curso2.php" class="h5">DEFENSA DIGITAL: SEGURIDAD TECNOLÓGICA Y PROTECCIÓN DE DATOS PERSONALES E INFORMÁTICOS.</a>
                         </div>
                     </div>
                 </div>
                 <!---Segundo curso END-->
+                
                 <!---Tercer curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/curso_phyton_django.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/ethical_img.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>PRÓXIMAMENTE</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>40 HORAS</small>
+                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>70 HORAS</small>
                             </div>
-                            <a class="h5" href="">Desarrollo web con Python y Django</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <a href="curso3PyD.html" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">INSCRIBIRME</a>
-                                </div>
-                            </div>
+                            <a class="h5" href="curso3.php">ETHICAL HACKER</a>
                         </div>
                     </div>
                 </div>
                 <!---Tercer curso END-->
+                
+            </div>
+            <div class="row">
                 <!---Cuarto curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/curso_cuatro_networking_essentials.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/english_forit.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>FINALIZADO</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>70 HORAS</small>
+                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>50 HORAS</small>
                             </div>
-                            <a class="h5" href="">Nociones básicas: NETWORKING ESSENTIALS</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <a href="curso4NE.html" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">INSCRIBIRME</a>
-                                </div>
-                            </div>
+                            <a class="h5" href="curso4.php">ENGLISH FOR 'IT' 1</a>
                         </div>
                     </div>
                 </div>
@@ -268,42 +115,33 @@
                 <!---Quinto curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/quinto_curso_IOT.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/ANALITICA-DE-DATOS.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32 HORAS</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>36 HORAS</small>
                             </div>
-                            <a class="h5" href="">Introducción a Internet de las Cosas IoT</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <a href="curso5IOT.html" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">INSCRIBIRME</a>
-                                </div>
-                            </div>
+                            <a class="h5" href="curso5.php">FUNDAMENTOS DE CIENCIA Y ANALÍTICA DE DATOS</a>
                         </div>
                     </div>
                 </div>
                 <!---Quinto curso END-->
-                <!---Sexto curso START-->
+                <!---Sexto curso START
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/curso_seis_ciberseguridad.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32 HORAS</small>
                             </div>
-                            <a class="h5" href="">Introducción a la Ciberseguridad</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <a href="curso6IC.html" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">INSCRIBIRME</a>
-                                </div>
-                            </div>
+                            <a class="h5" href="curso6.php"></a>
                         </div>
                     </div>
                 </div>
-                <!---Quinto curso END-->
+                Sexto curso END-->
             </div>
+
         </div>
     </div>
     <!-- Courses End -->
@@ -325,71 +163,10 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-        <div class="row pt-5">
-            <div class="col-lg-7 col-md-12">
-                <div class="row">
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Contacto</h5>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i> Av. Los Chasquis y Rio Guayllabamba</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>(032) 851894 - 411537</p>
-                        <p><i class="fa fa-envelope mr-2"></i>ap.sanchez@uta.edu.ec</p>
-                        <div class="d-flex justify-content-start mt-4">
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
-
-
-
-                        </div>
-                    </div>
-                    <!--
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Cursos</h5>
-                        <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="curso1AD.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Analítica de Datos</a>
-                            <a class="text-white mb-2" href="curso2BP.html"><i class="fa fa-angle-right mr-2"></i>Implementación de Buenas Prácticas</a>
-                            <a class="text-white mb-2" href="curso3PyD.html"><i class="fa fa-angle-right mr-2"></i>Desarrollo Web con Phyton y Django</a>
-                            <a class="text-white mb-2" href="curso4NE.html"><i class="fa fa-angle-right mr-2"></i>Networking Essentials</a>
-                            <a class="text-white mb-2" href="curso5IOT.html"><i class="fa fa-angle-right mr-2"></i>Internet de las Cosas IOT</a>
-                            <a class="text-white" href="curso6IC.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Ciberseguridad</a>
-                        </div>
-                    </div>
-                    -->
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Información</h5>
-                <div class="w-100">
-                    <p>Cuentános tus inquietudes.</p>
-                    <div class="w-100">
-                        <button class="btn-primary px-md-5" style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR INFORMACIÓN - CTT</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <div class="row">
-            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy;</a> Copyright © Universidad Técnica de Ambato <a></a>
-                </p>
-            </div>
-            <div class="col-lg-6 text-center text-md-right">
-                <ul class="nav d-inline-flex">
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="authors.html">Autores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">FAQs</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/footer_without_courses.php");
+    ?>
     <!-- Footer End -->
-
 </body>
 
 </html>

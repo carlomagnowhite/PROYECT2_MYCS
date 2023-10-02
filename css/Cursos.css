@@ -8,8 +8,8 @@
   }
   .descripcion{
     background-color: aliceblue;
-    width: 55%;
-    padding: 20px; 
+    width: 200%;
+    padding: 65px 9%; 
   }
   
   .imagen{
@@ -71,7 +71,6 @@
   padding: 0;
 }
 .pc-tab ul li label {
-  font-family: "Raleway";
   float: left;
   padding: 15px 25px;
   border: 1px solid #ddd;
@@ -89,7 +88,6 @@
   border-right-width: 0;
 }
 .pc-tab section {
-  font-family: "Droid Serif";
   clear: both;
 }
 .pc-tab section div {
@@ -103,7 +101,6 @@
 }
 .pc-tab section div h2 {
   margin: 0;
-  font-family: "Raleway";
   letter-spacing: 1px;
   color: #34495e;
 }
@@ -149,3 +146,21 @@
 .textcolor{
   color: white;
 }
+
+.gallery{
+  width: 100%;
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+  display: grid;
+  grid-template-columns: auto-fit,minmax(250px,1fr);
+  grid-gap: 30px;
+  
+}
+
+.gallery img{
+  width: 100%;
+}
+

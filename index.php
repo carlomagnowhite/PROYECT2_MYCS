@@ -27,45 +27,9 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center py-4 px-xl-5">
-            <div class="col-lg-3">
-                <a href="" class="text-decoration-none">
-                    <h1 class="m-0"><span class="text-primary">CTT</span>-FISEI</h1>
-                    <h6 class="font-weight-semi-bold mb-1">Centro de Transferencia y Desarrollo de Tecnología</h6>
-                </a>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Dirección</h6>
-                        <small>
-                            Av. Los Chasquis Y Río Payamino. Facultad de Ingeniería en Sistemas Electrónica e
-                            Industrial</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Contáctanos</h6>
-                        <small>ctt.fisei@uta.edu.ec </small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Llámanos</h6>
-                        <small>0962027000</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/topbar.php");
+    ?>
     <!-- Topbar End -->
 
     <!--RECOPILADOR DE INCIDENCIAS-->
@@ -90,7 +54,7 @@
                     <img class="position-relative w-100" src="img/carrusel_2.png" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-md-3">CURSOS ONLINE</h5>
+                            <h5 class="text-white text-uppercase mb-md-3">CURSOS VIRTUALES Y PRESENCIALES</h5>
                             <h1 class="display-3 text-white mb-md-4">Incentivar la investigación en los campos
                                 afines a sus áreas de trabajo.</h1>
                             <a href="course.php" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver más</a>
@@ -101,7 +65,7 @@
                     <img class="position-relative w-100" src="img/andre2.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-md-3">CURSOS ONLINE</h5>
+                            <h5 class="text-white text-uppercase mb-md-3">CURSOS VIRTUALES Y PRESENCIALES</h5>
                             <h1 class="display-3 text-white mb-md-4">Disponibilidad para todas las personas que
                                 deseen expandir sus conocimientos.</h1>
                             <a href="course.php" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver más</a>
@@ -112,7 +76,7 @@
                     <img class="position-relative w-100" src="img/carrusel_andrea_1.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-md-3">CURSOS ONLINE</h5>
+                            <h5 class="text-white text-uppercase mb-md-3">CURSOS VIRTUALES Y PRESENCIALES</h5>
                             <h1 class="display-3 text-white mb-md-4">Expande tu conocimiento, a través de nuevas
                                 formas de aprendizaje.</h1>
                             <a href="course.php" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver más</a>
@@ -123,7 +87,7 @@
                     <img class="position-relative w-100" src="img/andre3.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-md-3">CURSOS ONLINE</h5>
+                            <h5 class="text-white text-uppercase mb-md-3">CURSOS VIRTUALES Y PRESENCIALES</h5>
                             <h1 class="display-3 text-white mb-md-4">Compromiso con el desarrollo tecnológico.
                             </h1>
                             <a href="course.php" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver más</a>
@@ -134,8 +98,6 @@
         </div>
     </div>
     <!-- Carousel End -->
-
-
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
@@ -176,14 +138,13 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/ANALITICA-DE-DATOS.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/ojs_img.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>FINALIZADO</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32
-                                    HORAS</small>
+                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32 HORAS</small>
                             </div>
-                            <h5 class="h5">Introducción a la Analítica de Datos</h5>
+                            <h5 class="h5">INTRODUCCIÓN A OPEN JOURNAL SYSTEM (OJS) DESDE LA EDICIÓN DE REVISTA</h5>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <a href="curso1.php" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">VER MÁS</a>
@@ -196,14 +157,13 @@
                 <!---Segundo curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/manufactura_industria.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/curso2_img.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32
-                                    HORAS</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>40 HORAS</small>
                             </div>
-                            <h5 class="h5">Implementación de buenas prácticas (BPM) en la Industria</h5>
+                            <h5 class="h5">DEFENSA DIGITAL: SEGURIDAD TECNOLÓGICA Y PROTECCIÓN DE DATOS PERSONALES E INFORMÁTICOS.</h5>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <a href="curso2.php" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">VER MÁS</a>
@@ -216,14 +176,13 @@
                 <!---Tercer curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/curso_phyton_django.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/ethical_img.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>PRÓXIMAMENTE</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>40
-                                    HORAS</small>
+                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>70 HORAS</small>
                             </div>
-                            <h5 class="h5">Desarrollo web con Python y Django</h5>
+                            <h5 class="h5">ETHICAL HACKER</h5>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <a href="curso3.php" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">VER MÁS</a>
@@ -236,14 +195,13 @@
                 <!---Cuarto curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/curso_cuatro_networking_essentials.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/english_forit.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>FINALIZADO</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>70
-                                    HORAS</small>
+                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>50 HORAS</small>
                             </div>
-                            <h5 class="h5">Nociones básicas: NETWORKING ESSENTIALS</h5>
+                            <h5 class="h5">ENGLISH FOR 'IT' 1</h5>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <a href="curso4.php" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">VER MÁS</a>
@@ -256,14 +214,13 @@
                 <!---Quinto curso START-->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/quinto_curso_IOT.jpg" alt="" style="width: 1743px; height: 200px;">
+                        <img class="img-fluid" src="img/ANALITICA-DE-DATOS.jpg" alt="" style="width: 1743px; height: 200px;">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>ABIERTO</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>32
-                                    HORAS</small>
+                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>36 HORAS</small>
                             </div>
-                            <h5 class="h5">Introducción a Internet de las Cosas IoT</h5>
+                            <h5 class="h5">FUNDAMENTOS DE CIENCIA Y ANALÍTICA DE DATOS</h5>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <a href="curso5.php" class="btn btn-primary py-md-2 px-md-5 font-weight-semi-bold" style="margin: 0 auto;">VER MÁS</a>
@@ -273,7 +230,7 @@
                     </div>
                 </div>
                 <!---Quinto curso END-->
-                <!---Sexto curso START-->
+                <!---Sexto curso START
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
                         <img class="img-fluid" src="img/curso_seis_ciberseguridad.jpg" alt="" style="width: 1743px; height: 200px;">
@@ -292,16 +249,11 @@
                         </div>
                     </div>
                 </div>
-                <!---Quinto curso END-->
+                Sexto curso END-->
             </div>
         </div>
     </div>
     <!-- Courses End -->
-
-
-
-
-
     <!-- Team Start -->
     <div class="container-fluid py-5 ">
         <div class="container pt-5 pb-3">
@@ -309,10 +261,7 @@
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">AUTORIDADES</h5>
                 <h1>Facultad de Ingeniería en Sistemas, Electrónica e Industrial</h1>
             </div>
-
-
             <div class="row row-a">
-
                 <!--TEAM DECANA/START-->
                 <div class="col-md-6 col-lg-3 text-center team mb-4">
                     <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
@@ -379,8 +328,8 @@
                                 <h4 class="font-weight-normal mb-4">Una de las cosas destacables, es sin duda la
                                     calidad de los cursos. Son instruidos por profesionales altamente
                                     preparados.</h4>
-                                <img class="img-fluid mx-auto mb-3" src="img/resenia_1.jpg" alt="">
-                                <h5 class="m-0">Mateo Díaz</h5>
+                                <img class="img-fluid mx-auto mb-3" src="img/r1.jpg" alt="">
+                                <h5 class="m-0">Emilio</h5>
                                 <span>Estudiante</span>
                             </div>
                             <div class="text-center">
@@ -388,22 +337,21 @@
                                 <h4 class="font-weight-normal mb-4">La plataforma en donde se puede acceder a
                                     los cursos es muy intuitiva y agradable para el usuario, sin duda, incita a
                                     ir por más cursos.</h4>
-                                <img class="img-fluid mx-auto mb-3" src="img/resenia_2.jpg" alt="">
-                                <h5 class="m-0">Carlos Alvarado</h5>
-                                <span>Estudiante</span>
+                                <img class="img-fluid mx-auto mb-3" src="img/r2.jpg" alt="">
+                                <h5 class="m-0">Esteban</h5>
+                                <span>Ex-Alumno UTA</span>
                             </div>
                             <div class="text-center">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                                 <h4 class="font-weight-normal mb-4">La calidad de los cursos es buena, y permite
                                     expandir el conocimiento de maneras no convencionales.</h4>
-                                <img class="img-fluid mx-auto mb-3" src="img/resenia_3.jpg" alt="">
-                                <h5 class="m-0">Gabriel Medina</h5>
+                                <img class="img-fluid mx-auto mb-3" src="img/r3.jpg" alt="">
+                                <h5 class="m-0">Edison</h5>
                                 <span>Estudiante</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -427,68 +375,9 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-        <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="row">
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Contacto</h5>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i> Av. Los Chasquis y Rio Guayllabamba</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>(032) 851894 - 411537</p>
-                        <p><i class="fa fa-envelope mr-2"></i>ap.sanchez@uta.edu.ec</p>
-                        <div class="d-flex justify-content-start mt-4">
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
-
-
-
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Cursos</h5>
-                        <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="curso1.php"><i class="fa fa-angle-right mr-2"></i>Introducción a la Analítica de Datos</a>
-                            <a class="text-white mb-2" href="curso2.php"><i class="fa fa-angle-right mr-2"></i>Implementación de Buenas Prácticas</a>
-                            <a class="text-white mb-2" href="curso3.php"><i class="fa fa-angle-right mr-2"></i>Desarrollo Web con Phyton y Django</a>
-                            <a class="text-white mb-2" href="curso4.php"><i class="fa fa-angle-right mr-2"></i>Networking Essentials</a>
-                            <a class="text-white mb-2" href="curso5.php"><i class="fa fa-angle-right mr-2"></i>Internet de las Cosas IOT</a>
-                            <a class="text-white" href="curso6.php"><i class="fa fa-angle-right mr-2"></i>Introducción a la Ciberseguridad</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Información</h5>
-                <div class="w-100">
-                    <p>Cuentános tus inquietudes.</p>
-                    <div class="w-100">
-                        <button class="btn-primary px-md-5" style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR
-                                INFORMACIÓN - CTT</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <div class="row">
-            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy;</a> Copyright © Universidad Técnica de Ambato <a></a>
-                </p>
-            </div>
-            <div class="col-lg-6 text-center text-md-right">
-                <ul class="nav d-inline-flex">
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="authors.php">Autores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">FAQs</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/footer_standard.php");
+    ?>
     <!-- Footer End -->
 </body>
 

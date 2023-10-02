@@ -22,139 +22,232 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/Cursos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center py-4 px-xl-5">
-            <div class="col-lg-3">
-                <a href="index.html" class="text-decoration-none">
-                    <h1 class="m-0"><span class="text-primary">CTT</span>-FISEI</h1>
-                    <h6 class="font-weight-semi-bold mb-1">Centro de Transferencia y Desarrollo de Tecnología</h6>
-                </a>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Dirección</h6>
-                        <small>
-                            Av. Los Chasquis Y Río Payamino. Facultad de Ingeniería en Sistemas Electrónica e Industrial</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Contacto</h6>
-                        <small>ctt.fisei@uta.edu.ec </small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Llámanos</h6>
-                        <small>0962027000</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/topbar.php");
+    ?>
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
+    <div>
     <?php
     include("./inc/navbar.php");
     ?>
+    </div>
     <!-- Topbar End -->
 
 
     <!-- Header Start -->
-    <div class="container-fluid page-header" style="margin-bottom: 90px;">
-        <div class="container">
-            <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Courses</h3>
-                <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Courses</p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">INTRODUCCIÓN A LA ANALÍTICA DE DATOS</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include("./inc/header_cursos.php");
+    ?>
     <!-- Header End -->
 
-    <!-- Imagen -->
-    <div allign="center"><img src="img/Curso1.jpg"></div>
-    <!-- Imagen End -->
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-        <div class="row pt-5">
-            <div class="col-lg-7 col-md-12">
-                <div class="row">
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Contacto</h5>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i> Av. Los Chasquis y Rio Guayllabamba</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>(032) 851894 - 411537</p>
-                        <p><i class="fa fa-envelope mr-2"></i>ap.sanchez@uta.edu.ec</p>
-                        <div class="d-flex justify-content-start mt-4">
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
-                            <a target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Cursos</h5>
-                        <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="curso1AD.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Analítica de Datos</a>
-                            <a class="text-white mb-2" href="curso2BP.html"><i class="fa fa-angle-right mr-2"></i>Implementación de Buenas Prácticas</a>
-                            <a class="text-white mb-2" href="curso3PyD.html"><i class="fa fa-angle-right mr-2"></i>Desarrollo Web con Phyton y Django</a>
-                            <a class="text-white mb-2" href="curso4NE.html"><i class="fa fa-angle-right mr-2"></i>Networking Essentials</a>
-                            <a class="text-white mb-2" href="curso5IOT.html"><i class="fa fa-angle-right mr-2"></i>Internet de las Cosas IOT</a>
-                            <a class="text-white" href="curso6IC.html"><i class="fa fa-angle-right mr-2"></i>Introducción a la Ciberseguridad</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Información</h5>
-                <div class="w-100">
-                    <p>Cuentános tus inquietudes.</p>
-                    <div class="w-100">
-                        <button class="btn-primary px-md-5" style="position: relative;"><a class="m-0 text-white" href="mailto:ctt.fisei@uta.edu.ec?Subject=Requiero%20información%20sobre%20sus%20cursos%20tecnológicos.">SOLICITAR INFORMACIÓN - CTT</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <div class="row">
-            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy;</a> Copyright © Universidad Técnica de Ambato <a></a>
+    <!--Info Cursos -->
+    <h1 class="tituloCurso">INTRODUCCIÓN A OPEN JOURNAL SYSTEM (OJS) DESDE LA EDICIÓN DE REVISTA</h1><br>
+    <div class="intro">
+        <!--Descripcion -->
+        <div class="descripcion">
+            <h2>DESCRIPCIÓN</h1>
+                <p>En el vertiginoso mundo de la publicación académica, el acceso a la
+                    información y la difusión del conocimiento son fundamentales para el
+                    avance de la sociedad. En este contexto, Open Journal System (OJS) se
+                    erige como una poderosa herramienta que impulsa la gestión y publicación
+                    de revistas científicas de manera eficiente y colaborativa.
+                    Este curso introductorio ha sido diseñado para brindar a estudiantes
+                    universitarios, sin previos conocimientos en OJS, la oportunidad de explorar
+                    y comprender los entresijos de esta plataforma esencial desde la
+                    perspectiva de la edición de revistas.</p><br>
                 </p>
-            </div>
-            <div class="col-lg-6 text-center text-md-right">
-                <ul class="nav d-inline-flex">
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="authors.html">Autores</a>
+        </div>
+        <!---BANNER CURSO START-->
+        <div class="gallery">
+            <a href="img/curso1_fin.jpg" data-lightbox="models" data-title="Banner Curso" data-aos="fade-left">
+                <img class="imgDes" src="img/curso1_fin.jpg" alt="">
+            </a>
+        </div>
+        <!---BANNER CURSO END-->
+    </div><br>
+    <!--Objetivos -->
+    <div class="objetivos">
+        <h2>OBJETIVOS</h2>
+        <ul>
+            <li>
+                Dominar las funcionalidades de OJS.
+            </li>
+            <li>
+                Configurar y gestionar una revista en OJS.
+            </li>
+            <li>
+                Aplicar buenas prácticas editoriales.
+            </li>
+        </ul>
+    </div><br>
+    <div class="ubicacion">
+        <h2>LUGAR DE CELEBRACIÓN</h2>
+        <p>TALLERES TECNOLÓGICOS – FISEI.<br>
+        <ul>
+            <li>
+                Avda. Los Chasquis entre Río Payamino y Río Guayllabamba
+            </li>
+            <li>
+                Campus Huachi, Ambato-Ecuador.
+            </li>
+        </ul>
+        </p>
+    </div><br>
+    <div class="comite">
+        <h2>COMITÉ ORGANIZADOR</h2>
+        <ul>
+            <li>
+                Ing. Elizabeth Paulina Ayala Baño
+            </li>
+        </ul>
+    </div><br>
+    <!--Requisitos,Materiales y Contenidos -->
+    <div class="pc-tab" data-aos="fade-up">
+        <input checked="checked" id="tab1" type="radio" name="pct" />
+        <input id="tab2" type="radio" name="pct" />
+        <input id="tab3" type="radio" name="pct" />
+        <nav>
+            <ul>
+                <li class="tab1">
+                    <label for="tab1">REQUISITOS Y DETALLES</label>
+                </li>
+                <li class="tab2">
+                    <label for="tab2">MATERIALES Y EQUIPOS</label>
+                </li>
+                <li class="tab3">
+                    <label for="tab3">CONTENIDOS</label>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <!--Requisitos y Detalles-->
+            <div class="tab1">
+                <ul>
+                    <li>
+                        <strong>Fechas de inscripciones:</strong> 02 al 05 de octubre del 2023
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">FAQs</a>
+                    <li>
+                        <strong>El cupo de inscripciones:</strong> 25 participantes
+                    </li>
+                    <li>
+                        <strong>Lugar del evento:</strong> Talleres Tecnológicos – FISEI / Laboratorio asignado
+                    </li>
+                    <li>
+                        <strong>Fecha del curso:</strong> Del 07 de octubre al 28 de octubre del 2023
+                    </li>
+                    <li>
+                        <strong>Horario:</strong> 08H00 – 14H00
+                    </li>
+                    <li>
+                        <strong>Precio para los asistentes:</strong>
+                    <li>
+                        40 USD Estudiantes y egresados UTA
+                    </li>
+                    <li>
+                        50 USD Graduados, Docentes y Administrativos UTA
+                    </li>
+                    <li>
+                        60 USD Público en general
+                    </li>
+                    </li>
+                    <li>
+                        <strong>Tipo de capacitación:</strong> Curso de asistencia y aprobación con certificado digital QR
+                    </li>
+                    <li>
+                        <strong>Horas de capacitación:</strong> 40 horas
+                    </li>
+                    <li>
+                        <strong>Beneficiarios:</strong> Estudiantes y público en general
+                    </li>
+                    <li>
+                        <strong>Modalidad:</strong> Presencial
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
+            <!--Materiales y Equipos-->
+            <div class="tab2">
+                <ul>
+                    <li>
+                        • 1 laboratorio (20 computadores)
+                    </li>
+                    <li>
+                        • 1 proyector
+                    </li>
+                    <li>
+                        • 1 pizarrón
+                    </li>
+                    <li>
+                        • Internet
+                    </li>
+                </ul>
+            </div>
+            <!--Contenidos-->
+            <div class="tab3">
+                <ul>
+                    <li>
+                        <strong>• Acercamiento Inicial a la Herramienta</strong><br>
+                        o Introducción a Open Journal System (OJS) <br>
+                        o Explorando la Interfaz de OJS <br>
+                        o Roles y Responsabilidades <br>
+                    </li>
+                    <li>
+                        <strong>• Configuración General de OJS</strong><br>
+                        o Creación y Configuración de Revistas <br>
+                        o Gestión de Usuarios<br>
+                        o Gestión de Secciones y Políticas Editoriales<br>
+                    </li>
+                    <li>
+                        <strong>• Procedimiento para Publicar</strong><br>
+                        o Flujo de Trabajo Editorial <br>
+                        o Envío y Revisión de Artículos <br>
+                        o Decisión Editorial y Publicación <br>
+                    </li>
+                    <li>
+                        <strong>• Herramientas para la Gestión de Artículos</strong><br>
+                        o Indexación y Metadatos <br>
+                        o Gestión de Versiones y Formatos <br>
+                        o Promoción y Difusión <br>
+                        o Evaluación Final y Conclusiones <br>
+                    </li>
+                    <li>
+                        <strong>NOTA:</strong><br>
+                        Cada sesión incluirá una combinación de presentaciones teóricas,
+                        demostraciones prácticas en la plataforma, ejercicios interactivos y
+                        discusiones grupales para asegurar un aprendizaje integral y práctico.
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div><br>
+
+    <!--Fin Info Cursos -->
+
+    <!--Boton Registro START-->
+    <?php
+    require("inc/btn_registro.php");
+    ?>
+    <!--Boton Registro END-->
+
+    <!-- Footer Start -->
+    <?php
+    include("./inc/footer_without_courses.php");
+    ?>
     <!-- Footer End -->
 
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
