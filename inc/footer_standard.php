@@ -5,8 +5,8 @@
                 <div class="col-md-6 mb-5">
                     <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Contacto</h5>
                     <p><i class="fa fa-map-marker-alt mr-2"></i> Av. Los Chasquis y Rio Guayllabamba</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>(032) 851894 - 411537</p>
-                    <p><i class="fa fa-envelope mr-2"></i>ap.sanchez@uta.edu.ec</p>
+                    <p><i class="fa fa-envelope mr-2"></i>talleresfisei@uta.edu.ec</p>
+                    <p><i class="fa fa-envelope mr-2"></i>ctt.fisei@uta.edu.ec</p>
                     <div class="d-flex justify-content-start mt-4">
                         <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
                         <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>

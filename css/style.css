@@ -4307,7 +4307,7 @@ input[type="button"].btn-block {
     display: flex !important;
     flex-basis: auto;
   }
-  .navbar-expand-lg .navbar-toggler {
+  .navbar-expand-contactBodylg .navbar-toggler {
     display: none;
   }
 }

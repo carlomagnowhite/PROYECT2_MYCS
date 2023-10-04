@@ -6,7 +6,6 @@
     <title>CTT-FISEI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="js/main.js" rel="js">
-    <script src="js/correos.js"></script>
     <!-- Favicon -->
     <link href="img/ctt.png" rel="icon">
 
@@ -29,15 +28,10 @@
     <!-- Topbar Start -->
     <?php
     include("./inc/topbar.php");
-    ?>
-    <!-- Topbar End -->
-
-    <!--RECOPILADOR DE INCIDENCIAS-->
-    <script type="text/javascript" src="https://mattdiaz.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ia3qmx/b/4/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=es-ES&collectorId=da30bc4a"></script>
-    <!--RECOPILADOR END-->
-
-    <?php
+    //Topbar End
+    //Navbar START
     include("./inc/navbar.php");
+    //Navbar END
     ?>
 
     <!-- Carousel Start -->
@@ -121,6 +115,7 @@
                         computacionales e Informáticos, Ingeniería Electrónica y Comunicaciones e Ingeniería
                         Industrial en Procesos de Automatización.
                     </p>
+                    <div class="clear"></div>
                     <a href="about.php" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver más</a>
                 </div>
             </div>
@@ -262,56 +257,90 @@
                 <h1>Facultad de Ingeniería en Sistemas, Electrónica e Industrial</h1>
             </div>
             <div class="row row-a">
-                <!--TEAM DECANA/START-->
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
+
+                <!---div class="col-md-6 col-lg-3 text-center team mb-4">
                     <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
                         <div class="position-relative">
                             <div class="image-container image-a">
-                                <img class="img-fluid" src="img/FISEI_decana.jpg" alt="">
+                                <img class="img-fluid" src="img/decana.jpg" alt="">
                             </div>
                         </div>
                         <div class="bg-secondary p-4">
                             <h5>Ing. Elsa Pilar Urrutia Urrutia, Mg.</h5>
                             <p class="m-0">DECANA FISEI</p>
                         </div>
+                        
                     </div>
-                </div>
-                <!--TEAM DECANA/END-->
-                <div class="container-a">
-                    <!--TEAM SUBDECANA/START-->
-                    <div class="col-md-6 col-lg-3 text-center team mb-4">
-                        <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
-                            <div class="position-relative">
-                                <div class="image-container image-a">
-                                    <img class="img-fluid" src="img/subdecano_FISEI.png" alt="">
+                    
+                </div--->
+                    <div class="container-a">
+                        <!--TEAM DECANA/START-->
+                        <div class="col-md-6 col-lg-3 text-center team mb-4">
+                            <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
+                                <div class="position-relative">
+                                    <div class="image-container image-a">
+                                        <img class="img-fluid" src="img/decana.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="bg-secondary p-4">
+                                    <h5> Ing. Elsa Pilar Urrutia Urrutia, Mg.</h5>
+                                    <p class="m-0">DECANA FISEI</p>
                                 </div>
                             </div>
-                            <div class="bg-secondary p-4">
-                                <h5> Ing. Carlos Humberto Sánchez Rosero, Mg.</h5>
-                                <p class="m-0">SUBDECANO FISEI</p>
-                            </div>
                         </div>
-                    </div>
-                    <!--TEAM SUBDECANA/END-->
-                    <!---TEAM/ANDREA START-->
-                    <div class="col-md-6 col-lg-3 text-center team mb-4">
-                        <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
-                            <div class="position-relative">
-                                <div class="image-container image-a">
-                                    <img class="img-fluid" src="img/andre1.jpg" alt="">
+                        <!--TEAM DECANA/END-->
+                        <!--TEAM SUBDECANO/START-->
+                        <div class="col-md-6 col-lg-3 text-center team mb-4">
+                            <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
+                                <div class="position-relative">
+                                    <div class="image-container image-a">
+                                        <img class="img-fluid" src="img/carlos_sanchez.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="bg-secondary p-4">
+                                    <h5> Ing. Carlos Humberto Sánchez Rosero, Mg.</h5>
+                                    <p class="m-0">SUBDECANO FISEI</p>
                                 </div>
                             </div>
-                            <div class="bg-secondary p-4">
-                                <h5>Ing. Andrea Patricia Sánchez Zumba, Mg.</h5>
-                                <p class="m-0">RESPONSABLE CTT-FISEI</p>
+                        </div>
+                        <!--TEAM SUBDECANO/END-->
+                    </div>
+
+                    <div class="container-a">
+                        <!---TEAM/ANDREA START-->
+                        <div class="col-md-6 col-lg-3 text-center team mb-4">
+                            <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
+                                <div class="position-relative">
+                                    <div class="image-container image-a">
+                                        <img class="img-fluid" src="img/andrea_sanchez.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="bg-secondary p-4">
+                                    <h5>Ing. Andrea Patricia Sánchez Zumba, Mg.</h5>
+                                    <p class="m-0">RESPONSABLE CTT-FISEI</p>
+                                </div>
                             </div>
                         </div>
+                        <!---TEAM/ANDREA END-->
+                        <!---TEAM/ENCARGADO START-->
+                        <div class="col-md-6 col-lg-3 text-center team mb-4">
+                            <div class="team-item rounded overflow-hidden mb-2 width-a shadow-a">
+                                <div class="position-relative">
+                                    <div class="image-container image-a">
+                                        <img class="img-fluid" src="img/franklin_salazar.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="bg-secondary p-4">
+                                    <h5>Ing. Franklin Wilfrido Salazar Logroño, Mg.</h5>
+                                    <p class="m-0">ENCARGADO TALLERES TECNOLÓGICOS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!---TEAM/ENCARGADO END-->
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Team End -->
-
+            <!-- Team End -->
 
         <!-- Testimonial Start -->
         <div class="container-fluid py-5">

@@ -1,0 +1,63 @@
+/* Estilo básico para el contenedor del loader */
+.loading-container {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    z-index: 9999; /* Asegura que el loader esté por encima de otros elementos */
+}
+
+/* Estilo para el loader circular */
+.loader {
+    border: 6px solid #f3f3f3; /* Color del borde del loader */
+    border-top: 6px solid #3498db; /* Color del borde superior del loader (puedes cambiar este color) */
+    border-radius: 50%; /* Hace que el loader tenga forma circular */
+    width: 50px; /* Diámetro del loader */
+    height: 50px; /* Altura del loader */
+    animation: spin 2s linear infinite; /* Animación giratoria */
+    position: absolute;
+    top: 50%; /* Centra verticalmente el loader en el contenedor */
+    left: 50%; /* Centra horizontalmente el loader en el contenedor */
+    margin-top: -25px; /* Ajusta la posición vertical para centrar */
+    margin-left: -25px; /* Ajusta la posición horizontal para centrar */
+}
+
+/* Animación giratoria */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Estilos para la clase .respuesta que muestra la respuesta del servidor */
+
+.respuesta {
+    clear: both;
+    margin-top: 20px;  /*Espacio superior para separar del formulario */
+    padding: 20px; /* Espaciado interno para el contenido */
+    border: 1px solid #ccc; /* Borde del contenedor de la respuesta */
+    border-radius: 10px; /* Esquinas redondeadas del contenedor */
+    background-color: #4774e7; /* Color de fondo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.respuesta h5 {
+    font-size: 22px; /* Tamaño del texto del encabezado */
+    color: #ffffff; /* Color del texto del encabezado */
+    text-align: center; /*alinea el texto al centro */
+}
+
+.respuesta p {
+    font-size: 18px; /* Tamaño del texto del párrafo */
+    color: #ffffff; /* Color del texto del párrafo */
+    text-align: center; /*alinea el texto al centro */
+}
+
+/* Estilos para mensajes de error */
+.respuesta .error-message {
+    color: #ff0000; /* Color rojo para mensajes de error */
+    font-size: 22px; /* Tamaño del texto del mensaje de error */
+    margin-top: 10px; /* Espaciado superior para mensajes de error */
+}

@@ -21,15 +21,23 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/styleContact.css">
 </head>
-
-<!--RECOPILADOR DE INCIDENCIAS-->
-<script type="text/javascript" src="https://mattdiaz.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-ia3qmx/b/4/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=es-ES&collectorId=da30bc4a"></script>
-<!--RECOPILADOR END-->
 
 <body>
     <!-- Topbar Start -->
@@ -44,40 +52,27 @@
     <!-- Navbar End -->
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 
     <!--Inicio formulario de contacto-->
-
-    <div class="form-rest"></div>
 
     <body class="contactBody">
         <div class="content">
             <h1 class="logo">Contáctanos</h1>
             <div class="contact-wrapper">
                 <div class="contact-form">
-                    <form action="php/mensajes_contacto.php" class="FormAjax" method="post" autocomplete="off">
+                    <form action="mail/mensajes_contacto.php" class="FormAjax" method="post" autocomplete="off" id="form-contacto">
                         <p>
                             <label for="nombre">Nombre Completo</label>
-                            <input type="text" name="nombre" placeholder="Rosita Rosas" id="nombres" required>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre Apellido" required>
                         </p>
                         <p>
                             <label for="correo">Correo Electrónico</label>
-                            <input type="email" name="correo" id="email" placeholder="correo@dominio.com" required>
+                            <input type="email" name="correo" id="correo" placeholder="correo@dominio.com" required>
                         </p>
                         <p>
                             <label for="telefono">Telefono</label>
-                            <input type="number" name="telefono" pattern="[0-9]{10}" placeholder="0912547893" maxlength="10" required>
+                            <input type="number" name="telefono" id="telefono" pattern="[0-9]{10}" placeholder="09XXXXXXXX" maxlength="10" required>
                         </p>
                         <p>
                             <label for="mensaje">Mensaje o sugerencia</label>
@@ -87,8 +82,12 @@
                             <button type="submit">Enviar</button>
                         </p>
                     </form>
+                    <div class="form-rest"></div>
                 </div>
             </div>
+        </div>
+        <div class="loading-container" id="loading-container">
+            <div class="loader"></div>
         </div>
     </body>
     <!--Fin formulario de contacto-->
