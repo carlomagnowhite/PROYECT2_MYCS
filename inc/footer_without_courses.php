@@ -7,12 +7,13 @@
                     <p><i class="fa fa-map-marker-alt mr-2"></i> Av. Los Chasquis y Rio Guayllabamba</p>
                     <p><i class="fa fa-envelope mr-2"></i>talleresfisei@uta.edu.ec</p>
                     <p><i class="fa fa-envelope mr-2"></i>ctt.fisei@uta.edu.ec</p>
+                    <p><i class="fa fa-solid fa-desktop mr-2"></i><a href="https://talleresfisei.uta.edu.ec/" target="_blank">Plataforma Educativa</a></p>
                     <div class="d-flex justify-content-start mt-4">
                         <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://twitter.com/UTecnicaAmbato?t=jjf85-SBQenXY0NyXbRcqQ&s=09"><i class="fab fa-twitter"></i></a>
                         <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/UniversidadTecnicadeAmbatoOficial"><i class="fab fa-facebook-f"></i></a>
                         <a target="_blank" class="btn btn-outline-light btn-square mr-2" href="https://ec.linkedin.com/company/utecnicaambato"><i class="fab fa-linkedin-in"></i></a>
                         <a target="_blank" class="btn btn-outline-light btn-square" href="https://www.instagram.com/utecnicaambato/"><i class="fab fa-instagram"></i></a>
-                    </div>
+                    </div><br>
                 </div>
             </div>
         </div>
