@@ -1,10 +1,3 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -42,6 +35,25 @@
   box-sizing: border-box;
 }
 
+.custom-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -639,6 +651,12 @@ pre code {
   justify-content: center;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.triangle-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .no-gutters {
@@ -3905,7 +3923,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #FF6600;
+  background-color: #ff0000;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3938,7 +3956,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #FF6600;
+  background-color: #ff0000;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4077,7 +4095,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FF6600;
+  background-color: #ff0000;
 }
 
 .nav-fill > .nav-link,
@@ -4289,7 +4307,7 @@ input[type="button"].btn-block {
     display: flex !important;
     flex-basis: auto;
   }
-  .navbar-expand-lg .navbar-toggler {
+  .navbar-expand-contactBodylg .navbar-toggler {
     display: none;
   }
 }
@@ -7853,6 +7871,7 @@ button.bg-dark:focus {
 .pt-5,
 .py-5 {
   padding-top: 3rem !important;
+  margin: 0 auto;
 }
 
 .pr-5,
